@@ -123,8 +123,7 @@ WebElement contactuss;
 @FindBy(xpath="//footer//a[@href=\"index.html\"]")
 WebElement homeee;
 
-@FindBy(xpath="//footer//a[@href=\"mobile.html\"]")
-WebElement mob;
+
 
 @FindBy(xpath="//footer//a[@href=\"order.html\"]")
 WebElement ord;
@@ -140,6 +139,8 @@ WebElement cont;
 
 @FindBy(xpath="//footer//a[@href=\"sign.html\"]")
 WebElement sign;
+
+
 
 
 
@@ -193,24 +194,21 @@ public void Home()
 	supporttt.click();
 	contactuss.click();
 	homeee.click();
-	mob.click();
+	
 	ord.click();
 	terms.click();
 	privacy.click();
-	mob.click();
+	
 	ord.click();
 	terms.click();
 	privacy.click();
 	cont.click();
 	sign.click();
 	
-
-}
-
 	
 
+ }
 
-
-	}
+}
 
 

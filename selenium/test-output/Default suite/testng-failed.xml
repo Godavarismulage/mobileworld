@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom.signin_pom">
+      <class name="pom.Home_pom">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- pom.signin_pom -->
+      </class> <!-- pom.Home_pom -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
